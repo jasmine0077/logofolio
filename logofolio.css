@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Glass+Antiqua&family=Indie+Flower&family=Roboto+Mono:wght@500&family=Rubik+Burned&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fefae0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.title {
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #283618;
+}
+
+.title h1 {
+    background: linear-gradient(to right, rgb(255, 255, 255), #dda15e, #bc6c25);
+    color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 2px 2px 4px rgba(7, 7, 7, 0.267);
+    font-weight: 900;
+    font-size: 8em;
+    letter-spacing: 0.3em;
+}
+
+.page-1 {
+    height: 400px;
+    width: 90vw;
+    border-top: 5px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nav {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav h2 {
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    letter-spacing: 0.2em;
+}
+
+.nav h3 {
+    color: #637c46;
+}
+
+.bc-1 {
+    height: 270px;
+    width: 500px;
+    background-image: url(pet\ shop.png);
+    background-size: calc(90%);
+    background-repeat: no-repeat;
+    margin-left: 80px;
+}
+
+.image1 {
+    height: 450px;
+    width: 90vw;
+    background-size: cover;
+    background-image: url(image2.png);
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-1 {
+    height: 200px;
+    width: 200px;
+    background-image: url(pet\ logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page-2 {
+    height: 400px;
+    width: 90vw;
+    border-top: 5px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.bc-2 {
+    height: 270px;
+    width: 500px;
+    background-image: url(cake\ shop.png);
+    background-size: calc(90%);
+    background-repeat: no-repeat;
+    margin-left: 80px;
+}
+
+.image2 {
+    height: 450px;
+    width: 90vw;
+    background-size: cover;
+    background-image: url(image4.png);
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-2 {
+    height: 250px;
+    width: 250px;
+    background-image: url(cake\ logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bc-3 {
+    height: 270px;
+    width: 500px;
+    background-image: url(flower\ shop.png);
+    background-size: calc(90%);
+    background-repeat: no-repeat;
+    margin-left: 80px;
+}
+
+.image3 {
+    height: 450px;
+    width: 90vw;
+    background-size: cover;
+    background-image: url(image5.png);
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-3 {
+    height: 150px;
+    width: 350px;
+    background-image: url(flower\ logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bc-4 {
+    height: 270px;
+    width: 500px;
+    background-image: url(cloth\ shop.png);
+    background-size: calc(90%);
+    background-repeat: no-repeat;
+    margin-left: 80px;
+}
+
+.image4 {
+    height: 450px;
+    width: 90vw;
+    background-size: cover;
+    background-image: url(image6.png);
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.logo-4 {
+    height: 300px;
+    width: 300px;
+    background-image: url(cloth\ logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 450px) {
+    .title {
+        height: 200px;
+        width: 440px;
+    }
+    .title h1 {
+        font-size: 3.4em;
+    }
+    .page-1 {
+        height: 150px;
+        width: 90vw;
+    }
+    .nav {
+        width: 90vw;
+    }
+    .nav h2 {
+        font-size: 0.7em;
+        letter-spacing: 0.1em;
+    }
+    .nav h3 {
+        font-size: 0.5em;
+    }
+    .bc-1 {
+        height: 100px;
+        width: 150px;
+        background-size: calc(90%);
+        margin: 0;
+    }
+    .image1 {
+        height: 200px;
+        width: 90vw;
+        margin-top: 25px;
+    }
+    .logo-1 {
+        height: 100px;
+        width: 100px;
+    }
+    .page-2, .page-3 {
+        height: 150px;
+        width: 90vw;
+        margin-top: 50px;
+    }
+    .bc-2,.bc-3, .bc-4 {
+        height: 100px;
+        width: 150px;
+        background-size: calc(90%);
+        margin-left: 80px;
+    }
+    .image2, .image3, .image4 {
+        height: 200px;
+        width: 90vw;
+        margin-top: 25px;
+    }
+    .logo-2 {
+        height: 150px;
+        width: 150px;
+    }
+    .logo-3 {
+        height: 80px;
+        width: 150px;
+    } 
+    .logo-4 {
+        height: 100px;
+        width: 100px;
+    }   
+}
